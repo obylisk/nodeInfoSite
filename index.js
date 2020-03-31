@@ -4,7 +4,6 @@ const url = require('url');
 const fs = require('fs');
 const path = require('path');
 
-const PORT = 8080;
 const MIME_TEXT_HTML = { 'Content-Type': 'text/html' };
 
 http.createServer((req, res) => {
